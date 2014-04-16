@@ -12,5 +12,14 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
-//= require_tree .
+
+//= require bootstrap
+//= require ace-elements
+//= require ace
+//= require ace-extra
+//= require typeahead-bs2.min
+//= require grid.locale-en
+//= require jquery.jqGrid.min
+//= require chosen.jquery.min
+//= require jquery.dataTables.min
+//= require jquery.dataTables.bootstrap

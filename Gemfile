@@ -19,6 +19,7 @@ gem 'haml-rails'
 gem 'enumerize'
 gem 'inherited_resources'
 gem 'jbuilder', '~> 2.0'
+gem 'simple_form'
 
 # for attachment
 gem 'carrierwave'

@@ -9,7 +9,18 @@
  * compiled file so the styles you add here take precedence over styles defined in any styles
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
+
+
+ *= require bootstrap.min
+ *= require font-awesome
+ *= require chosen
+ *= require jquery-ui-1.10.3.full.min
+
+
  *
- *= require_tree .
- *= require_self
+ *= require ace.min
+ *= require ace-fonts
+ *= require ace-rtl.min
+ *= require ace-skins.min
+ *
  */
