@@ -15,21 +15,21 @@
           Results For Latest Category
         .table-responsive
           %table#sample-table-2.table.table-striped.table-bordered.table-hover
-          %thead
-            %tr
-              %th ID
-              %th Name
-              %th Actions
-          %tbody
-            - @categories.each do |category|
+            %thead
               %tr
-                %td= category.id
-                %td= brand.name
-                %td
-                  = link_to edit_category_path(category), :class => 'green' do
-                    %i.icon-pencil.bigger-130
-                  = link_to category_path(category), method: :delete, data: {confirm: 'Are you sure?'}, :class => 'red' do
-                    %i.icon-trash.bigger-130
+                %th ID
+                %th Name
+                %th Actions
+            %tbody
+              - @categories.each do |category|
+                %tr
+                  %td= category.id
+                  %td= category.name
+                  %td
+                    = link_to edit_category_path(category), :class => 'green' do
+                      %i.icon-pencil.bigger-130
+                    = link_to category_path(category), method: :delete, data: {confirm: 'Are you sure?'}, :class => 'red' do
+                      %i.icon-trash.bigger-130
 
 
 

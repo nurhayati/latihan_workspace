@@ -1,6 +1,6 @@
 class CategoriesController < InheritedResources::Base
   respond_to :html
-  actions :all, execpt: [:show]
+  actions    :all, except: [:show]
 
   private
     def permitted_params
